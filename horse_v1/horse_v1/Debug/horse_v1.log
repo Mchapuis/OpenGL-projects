@@ -1,0 +1,25 @@
+﻿Build started 2018-03-06 16:02:43.
+     1>Project "C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\horse_v1\horse_v1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\glm /I..\glfw /I..\glew /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\horse_v1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Light.cpp
+         Light.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\horse_v1.res" horse_v1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\Debug\horse_v1.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\glfw /LIBPATH:..\glew glew32.lib glu32.lib opengl32.lib glfw3dll.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\Debug\horse_v1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\Debug\horse_v1.lib" /MACHINE:X86 Debug\horse_v1.res
+         Debug\lab.obj
+         Debug\Light.obj
+         Debug\objloader.obj
+         Debug\stdafx.obj
+         horse_v1.vcxproj -> C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\Debug\horse_v1.exe
+       PostBuildEvent:
+         xcopy /y /d "C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\horse_v1\..\glfw\glfw3.dll" "C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\Debug\"
+         xcopy /y /d "C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\horse_v1\..\glew\glew32.dll" "C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\Debug\"
+         :VCEnd
+         0 File(s) copied
+         0 File(s) copied
+     1>Done Building Project "C:\Users\mrtnchps\Documents1\GitHub\OpenGL-projects\horse_v1\horse_v1\horse_v1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.41
